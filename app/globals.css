@@ -4,6 +4,54 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ==== clerk class override ===== */
+
+.cl-userButtonPopoverActionButtonIcon {
+  color: white;
+}
+
+
+.cl-dividerLine {
+  background: #252a41;
+  height: 2px;
+}
+
+.cl-socialButtonsIconButton {
+  border: 3px solid #565761;
+}
+
+.cl-internal-wkkub3 {
+  color: white;
+}
+.cl-userButtonPopoverActionButton {
+  color: white;
+}
+/* .cl-header {
+  gap: 0.05rem; 
+} */
+.cl-logoBox {
+  height: 48px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+
+/* .cl-logoImage {
+  width: 120px !important;
+  height: 48px !important;
+  object-fit: contain;
+ } */
+.cl-headerTitle {
+  margin-top: 0;
+}
+.cl-alternativeMethodsBlockButtonText {
+  color: #fff;
+}
+
+
 @layer utilities{
   .flex-center {
     @apply flex items-center justify-center;
